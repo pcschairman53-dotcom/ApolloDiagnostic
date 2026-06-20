@@ -6,6 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, Mail, Menu, X, ArrowUpRight, MessageSquare } from 'lucide-react';
+import BrandLogo from './BrandLogo';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -65,11 +66,7 @@ export default function Header() {
             className="flex items-center space-x-2.5 group"
             id="header-brand-logo"
           >
-            <div className="relative flex items-center justify-center w-11 h-11 bg-[#0F4C81] rounded-xl overflow-hidden shadow-inner uppercase font-bold text-white tracking-widest text-xs">
-              <span className="z-10 font-sans">AD</span>
-              <div className="absolute top-0 right-0 w-4 h-4 bg-[#F59E0B] rounded-bl-full"></div>
-              <div className="absolute bottom-0 left-0 w-3 h-3 bg-teal-400 rounded-tr-full"></div>
-            </div>
+            <BrandLogo showText={false} size="custom" className="w-11 h-11" />
             <div>
               <div className="flex items-center">
                 <span className="font-display font-extrabold text-[15px] sm:text-base text-[#0F4C81] tracking-tight group-hover:text-amber-500 transition-colors">

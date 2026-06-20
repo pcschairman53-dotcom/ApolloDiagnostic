@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { Mail, Phone, MapPin, Clock, MessageSquare, ExternalLink, Heart } from 'lucide-react';
+import BrandLogo from './BrandLogo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -99,9 +100,7 @@ export default function Footer() {
           {/* Identity column */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2.5">
-              <div className="flex items-center justify-center w-9 h-9 bg-white/10 rounded-lg overflow-hidden border border-white/10 text-white font-sans font-bold text-xs">
-                <span>AD</span>
-              </div>
+              <BrandLogo showText={false} size="custom" className="w-9 h-9" />
               <div>
                 <h3 className="text-white font-display font-extrabold text-sm tracking-wide">
                   APOLLO DIAGNOSTICS

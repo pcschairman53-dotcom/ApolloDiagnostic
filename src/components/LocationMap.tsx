@@ -114,7 +114,7 @@ export default function LocationMap() {
             <iframe
               id="google-maps-embed-frame"
               title="Apollo Diagnostics Belgharia Map coordinates"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m4!2m3!1s0x39f89fbff2aaaaab:0xc76595bf7be3ea!3m2!1d22.658252!2d88.384594!5e0!3m2!1sen!2sin!4v1703215682000!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Apollo%20Diagnostics%20110%20Feeder%20Road%20Belgharia%20Kolkata%20700056&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '340px' }}
