@@ -1,0 +1,10 @@
+{
+  "name": "Apollo Diagnostics Belgharia",
+  "description": "ISO Certified Premium Diagnostics Center in Belgharia, Kolkata. Book pathology, radiology, blood tests, and health checkups with convenient home collection.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
